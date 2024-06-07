@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmeraldEagleMedia</title>
+
+    <!-- Style Sheets -->
+
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/m_styles.css">
+    <link rel="stylesheet" href="./css/r_style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="fixed-top">
+        <div class="header_top">
+            <div class="container desktop_header p-0">
+                <div class="header_main_container">
+                    <div class="header_left">
+                        <a href="./index.html">
+                            <img src="./img/header_logo.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="header_center">
+                        <button class="btn btn_header_link active_class">
+                            Our story
+                        </button>
+                        <button class="btn btn_header_link">
+                            Services
+                        </button>
+                        <button class="btn btn_header_link">
+                            FAQ's
+                        </button>
+                        <button class="btn btn_header_link">
+                            Contact Us
+                        </button>
+                        <button class="btn btn_header_link">
+                            Our story
+                        </button>
+                        <div class="header_dropbox">
+                            <button class="btn btn_header_link" id="this_btn1"
+                                onclick="desk_cart('header_cart_dropdown', 'this_btn1')">
+                                Cart (0)
+                            </button>
+                            <div class="header_cart_dropdown d-none" id="header_cart_dropdown">
+                                <div class="triangle_div"></div>
+                                <div class="cart_main">
+                                    <h1 class="cart_title">My Cart</h1>
+                                    <div class="cart_stroke"></div>
+                                    <div class="cart_inner">
+                                        <div class="cart_inner_top">
+                                            <div class="cart_inner_left">
+                                                <p class="cart_prod_title">SEO - platinum package</p>
+                                            </div>
+                                            <div class="cart_inner_right">
+                                                <p class="cart_prod_price">£100.00</p>
+                                                <img src="./img/cross_x.svg" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="cart_inner_bottom">
+                                            <p class="cart_duration">3 Months</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart_stroke"></div>
+                                    <div class="cart_inner">
+                                        <div class="cart_inner_top">
+                                            <div class="cart_inner_left">
+                                                <p class="cart_prod_title">SEO - platinum package</p>
+                                            </div>
+                                            <div class="cart_inner_right">
+                                                <p class="cart_prod_price">£100.00</p>
+                                                <img src="./img/cross_x.svg" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="cart_inner_bottom">
+                                            <p class="cart_duration">3 Months</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart_stroke"></div>
+                                    <div class="cart_inner">
+                                        <div class="cart_inner_top">
+                                            <div class="cart_inner_left">
+                                                <p class="cart_prod_title">SEO - platinum package</p>
+                                            </div>
+                                            <div class="cart_inner_right">
+                                                <p class="cart_prod_price">£100.00</p>
+                                                <img src="./img/cross_x.svg" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="cart_inner_bottom">
+                                            <p class="cart_duration">3 Months</p>
+                                        </div>
+                                    </div>
+                                    <div class="cart_stroke"></div>
+                                    <div class="cart_pricing_div">
+                                        <p class="total_text">Total:</p>
+                                        <p class="total_text">£100.00</p>
+                                    </div>
+                                    <button class="btn btn_header">
+                                        Continue to checkout
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_dropbox">
+                            <button class="btn btn_header_link" id="this_btn"
+                                onclick="currency_drop('header_currency_dropdown', 'currency_logo', 'this_btn')">
+                                GBP
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
+                                    fill="none" id="currency_logo">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.5 10.0344C5.50415 10.0949 5.50365 10.1103 5.51395 10.1702C5.5372 10.3049 5.58825 10.4344 5.66326 10.5487C5.70116 10.6065 5.74526 10.657 5.79231 10.7074L11.7926 16.7076C11.8369 16.749 11.847 16.7606 11.8955 16.7973C11.9499 16.8386 12.0085 16.8743 12.0702 16.9036C12.3398 17.0318 12.6597 17.0318 12.9292 16.9036C12.9909 16.8743 13.0496 16.8386 13.104 16.7973C13.1524 16.7606 13.1625 16.749 13.2068 16.7076L19.2071 10.7074C19.2485 10.663 19.2601 10.6529 19.2968 10.6045C19.3932 10.4774 19.4583 10.3274 19.4855 10.1702C19.5048 10.0579 19.5048 9.94255 19.4855 9.8303C19.47 9.74054 19.4422 9.65299 19.4031 9.57074C19.2545 9.25832 18.9464 9.04081 18.6023 9.00541C18.4663 8.99146 18.3277 9.00571 18.1974 9.04707C18.0889 9.08152 17.9864 9.13457 17.8957 9.20337C17.8473 9.24012 17.8372 9.25167 17.7928 9.29308L12.4997 14.5862L7.20657 9.29308L7.15667 9.24647C7.10967 9.20822 7.09872 9.19732 7.04792 9.16402C6.95271 9.10157 6.84686 9.05557 6.73625 9.02861C6.64775 9.00706 6.55635 8.99766 6.46534 9.00076C6.11958 9.01256 5.79731 9.20857 5.62776 9.51009C5.57195 9.60934 5.5333 9.71809 5.51395 9.8303C5.50365 9.8902 5.50415 9.9056 5.5 9.9661C5.5 9.98886 5.5 10.0116 5.5 10.0344Z"
+                                        fill="#3C3C3C" />
+                                </svg>
+                            </button>
+                            <div class="header_currency_dropdown d-none" id="header_currency_dropdown">
+                                <div class="triangle_div"></div>
+                                <div class="currency_div">
+                                    <button class="btn btn_currency">GBP £</button>
+                                    <button class="btn btn_currency">GBP £</button>
+                                    <button class="btn btn_currency active_class">GBP £</button>
+                                    <button class="btn btn_currency">GBP £</button>
+                                    <button class="btn btn_currency">GBP £</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header_right">
+
+                        <button class="btn btn_header">
+                            Sign in / Sign up
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile_header">
+                <div class="header_mobo_main">
+                    <div class="header_mobo_left">
+                        <!-- <button class="btn p-0"> -->
+                        <img src="./img/header_mobo.svg" alt="" class="img-fluid">
+                        <!-- </button> -->
+                    </div>
+                    <div class="header_mobo_right">
+                        <div class="hamburger_menu">
+                            <img src="./img/hamburger_logo.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="hamburger_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.png" alt="" class="img-fluid">
+                        </div>
+                        <!-- <div class="cart_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.svg" alt="" class="img-fluid">
+                        </div> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="header_mobo_main_slide" style="display: none;">
+            <div class="header_main_mobo">
+
+                <button class="btn btn_header_link">
+                    Services
+                </button>
+                <div class="cart_stroke mawa_wid"></div>
+                <button class="btn btn_header_link">
+                    About Us
+                </button>
+                <div class="cart_stroke mawa_wid"></div>
+                <button class="btn btn_header_link">
+                    FAQs
+                </button>
+                <div class="cart_stroke mawa_wid"></div>
+                <button class="btn btn_header_link">
+                    Contact
+                </button>
+                <div class="cart_stroke mawa_wid"></div>
+                <button class="btn btn_header_link hamburger_cart">
+                    View Cart
+                </button>
+                <div class="cart_stroke mawa_wid"></div>
+                <div class="currency_drop_div">
+                    <button class="btn btn_header_link me-auto" id="this_btnm"
+                        onclick="currency_drop('header_currency_dropdownm', 'currency_logom', 'this_btnm')">
+                        GBP
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                            id="currency_logom">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.5 10.0344C5.50415 10.0949 5.50365 10.1103 5.51395 10.1702C5.5372 10.3049 5.58825 10.4344 5.66326 10.5487C5.70116 10.6065 5.74526 10.657 5.79231 10.7074L11.7926 16.7076C11.8369 16.749 11.847 16.7606 11.8955 16.7973C11.9499 16.8386 12.0085 16.8743 12.0702 16.9036C12.3398 17.0318 12.6597 17.0318 12.9292 16.9036C12.9909 16.8743 13.0496 16.8386 13.104 16.7973C13.1524 16.7606 13.1625 16.749 13.2068 16.7076L19.2071 10.7074C19.2485 10.663 19.2601 10.6529 19.2968 10.6045C19.3932 10.4774 19.4583 10.3274 19.4855 10.1702C19.5048 10.0579 19.5048 9.94255 19.4855 9.8303C19.47 9.74054 19.4422 9.65299 19.4031 9.57074C19.2545 9.25832 18.9464 9.04081 18.6023 9.00541C18.4663 8.99146 18.3277 9.00571 18.1974 9.04707C18.0889 9.08152 17.9864 9.13457 17.8957 9.20337C17.8473 9.24012 17.8372 9.25167 17.7928 9.29308L12.4997 14.5862L7.20657 9.29308L7.15667 9.24647C7.10967 9.20822 7.09872 9.19732 7.04792 9.16402C6.95271 9.10157 6.84686 9.05557 6.73625 9.02861C6.64775 9.00706 6.55635 8.99766 6.46534 9.00076C6.11958 9.01256 5.79731 9.20857 5.62776 9.51009C5.57195 9.60934 5.5333 9.71809 5.51395 9.8303C5.50365 9.8902 5.50415 9.9056 5.5 9.9661C5.5 9.98886 5.5 10.0116 5.5 10.0344Z"
+                                fill="#3C3C3C" />
+                        </svg>
+                    </button>
+                    <div class="currency_drop d-none" id="header_currency_dropdownm">
+                        <button class="btn btn_header_link active_class">GBP</button>
+                        <div class="cart_stroke mawa_wid"></div>
+                        <button class="btn btn_header_link">GBP</button>
+                        <div class="cart_stroke mawa_wid"></div>
+                        <button class="btn btn_header_link">GBP</button>
+                    </div>
+                </div>
+                <div class="cart_stroke mawa_wid"></div>
+                <button class="btn btn_header_link">
+                    Login / Register
+                </button>
+            </div>
+        </div>
+        <div class="header_cart_mobo_main_slide" style="display: none;">
+            <div class="header_cart_dropdown">
+                <div class="cart_main">
+                    <h1 class="cart_title">My Cart</h1>
+                    <div class="cart_stroke"></div>
+                    <div class="cart_inner">
+                        <div class="cart_inner_top">
+                            <div class="cart_inner_left">
+                                <p class="cart_prod_title">SEO - platinum package</p>
+                            </div>
+                            <div class="cart_inner_right">
+                                <p class="cart_prod_price">£100.00</p>
+                                <img src="./img/cross_x.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="cart_inner_bottom">
+                            <p class="cart_duration">3 Months</p>
+                        </div>
+                    </div>
+                    <div class="cart_stroke"></div>
+                    <div class="cart_inner">
+                        <div class="cart_inner_top">
+                            <div class="cart_inner_left">
+                                <p class="cart_prod_title">SEO - platinum package</p>
+                            </div>
+                            <div class="cart_inner_right">
+                                <p class="cart_prod_price">£100.00</p>
+                                <img src="./img/cross_x.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="cart_inner_bottom">
+                            <p class="cart_duration">3 Months</p>
+                        </div>
+                    </div>
+                    <div class="cart_stroke"></div>
+                    <div class="cart_inner">
+                        <div class="cart_inner_top">
+                            <div class="cart_inner_left">
+                                <p class="cart_prod_title">SEO - platinum package</p>
+                            </div>
+                            <div class="cart_inner_right">
+                                <p class="cart_prod_price">£100.00</p>
+                                <img src="./img/cross_x.svg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="cart_inner_bottom">
+                            <p class="cart_duration">3 Months</p>
+                        </div>
+                    </div>
+                    <div class="cart_stroke"></div>
+                    <div class="cart_pricing_div">
+                        <p class="total_text">Total:</p>
+                        <p class="total_text">£100.00</p>
+                    </div>
+                    <button class="btn btn_header">
+                        Continue to checkout
+                    </button>
+                    <button class="btn btn_header_cart_close cart_menu_closem">
+                        Close Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Service Start-->
+    <!--Section 1 Start-->
+    <section class="service_s1 wdd_s1">
+        <div class="service_c1 container">
+            <h1 class="service_s1title">web design & development</h1>
+            <div class="service_c1inner">
+                <p class="service_s1subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <button type="button" class="btn service_s1btn">Explore prices & packages</button>
+            </div>
+        </div>
+    </section>
+    <!--Section 1 End-->
+
+    <!--Section 2 Start-->
+    <section class="service_s2">
+        <img class="service_s2lefticon mobile_none" src="./img/seo_s2leftimg.png">
+        <img class="service_s2righticon mobile_none" src="./img/seo_s2rightimg.png">
+        <img class="service_s2leftbottom desktop_none" src="./img/seo_s2leftbottommob.png">
+        <img class="service_s2righttop desktop_none" src="./img/seo_s2righttopmob.png">
+        <img class="service_s2lefttop desktop_none" src="./img/seo_s2lefttopmob.png">
+        <img class="service_s2rightbottom desktop_none" src="./img/seo_s2rightbotttommob.png">
+        <div class="service_c2 container">
+            <h2 class="service_s2title mobile_none">What is web design & development?</h2>
+            <h2 class="service_s2title desktop_none">What is web design<br> & development?</h2>
+            <div class="service_c2inner">
+                <p class="service_s2subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dict
+                    aha explicabo. Et quasi architecto beatae vitae dicta sunt ha aha explicabo.</p>
+                <p class="service_s2subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dict
+                    aha explicabo. Et quasi architecto beatae vitae dicta sunt ha aha explicabo.</p>
+            </div>
+        </div>
+    </section>
+    <!--Section 2 End-->
+
+    <!-- Section 3 Start -->
+    <div class="os3 mb-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 order-md-2 seo3_bg wdd_s3img">
+
+                </div>
+                <div class="col-md-6 order-md-1 os3_bg_left">
+                    <div class="os3_content service_s3content">
+                        <img class="service_s3righticon desktop_none" src="./img/service_s3rightshape.png">
+                        <div class="os3_triangle">
+                            <img src="./img/os3_polygon.svg" alt="" class="img-fluid">
+                        </div>
+                        <h1 class="os2_title">
+                            Our Blueprint for Your<br> Business Success
+                        </h1>
+                        <p class="os2_subtitle">
+                            Lorem ipsum dolor sit amet consectetur. Orci sit at facilisis vestibulum pellentesque.
+                            Mattis amet auctor viverra cras nullam elementum adipiscing ullamcorper. Facilisis
+                            suspendisse lorem.<br><br>
+                            A odio adipiscing sed at ullamcorper dolor. Nulla nibh aliquet ut tristique vel massa nec
+                            amet ultrices. Ac iaculis non cursus urna nec magna quis malesuada. Malesuada ut arcu enim
+                            integer est morbi molestie mauris. Vulputate id porttitor.
+                        </p>
+                        <button type="button" class="btn service_tablebtn m-0">Read more about us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section 3 End -->
+
+    <!-- Section 4 Start -->
+
+    <div class="os2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 seo2_bg wdd_s4img">
+                </div>
+                <div class="col-md-6 os2_bg_right service_s4right">
+                    <img class="service_s3righticonbottom mobile_none" src="./img/service_s3righticon.png">
+                    <div class="os2_content service_s4content">
+                        <div class="os2_triangle">
+                            <img src="./img/os3_polygon.svg" alt="" class="img-fluid">
+                        </div>
+                        <h1 class="os2_title">
+                            Our Commitment to You
+                        </h1>
+                        <p class="os2_subtitle">
+                            Lorem ipsum dolor sit amet consectetur. Orci sit at facilisis vestibulum pellentesque.
+                            Mattis amet auctor viverra cras nullam elementum adipiscing ullamcorper. Facilisis
+                            suspendisse lorem.<br><br>
+                            A odio adipiscing sed at ullamcorper dolor. Nulla nibh aliquet ut tristique vel massa nec
+                            amet ultrices. Ac iaculis non cursus urna nec magna quis malesuada. Malesuada ut arcu enim
+                            integer est morbi molestie mauris. Vulputate id porttitor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section 4 End -->
+
+    <!-- Section 5 Start -->
+    <section class="service_s5">
+        <img class="service_s5lefticon mobile_none" src="./img/service_s5lefticon.png">
+        <img class="service_s5righticon mobile_none" src="./img/service_s5righticon.png">
+        <div class="service_c5 container">
+            <div class="service_s5top">
+                <h1 class="os2_title mb-0">How does it work?</h1>
+                <p class="os2_subtitle mb-0">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo.
+                </p>
+            </div>
+            <div class="service_s5bottom">
+                <div class="service_s5card1">
+                    <h3 class="service_s5cardtitle">Create an Account</h3>
+                    <p class="service_s5cardsubtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam.</p>
+                </div>
+                <div class="service_s5card2">
+                    <h3 class="service_s5cardtitle">Explore Our Services</h3>
+                    <p class="service_s5cardsubtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam.</p>
+                </div>
+                <div class="service_s5card3">
+                    <h3 class="service_s5cardtitle">Leave The Rest To Us</h3>
+                    <p class="service_s5cardsubtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 5 End -->
+
+    <!-- Section 6 Start -->
+    <section class="service_s6">
+        <div class="service_c6 container">
+            <h1 class="os2_title mb-0">Pricing and Packages</h1>
+            <div class="service_S6tabmain mobile_none">
+                <div class="nav-tabs-container">
+                    <ul class="nav nav-pills service_tabbar" id="pills-tab" role="tablist">
+                        <li class="nav-item col" role="presentation">
+                            <button class="active service_tabbtn w-100 month_1btn" id="pills-one-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab"
+                                aria-controls="pills-one" aria-selected="true">1&nbsp;Month</button>
+                        </li>
+                        <li class="nav-item col" role="presentation">
+                            <button class="service_tabbtn w-100" id="pills-three-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                                aria-selected="false">3&nbsp;Months</button>
+                        </li>
+                        <li class="nav-item col" role="presentation">
+                            <button class="service_tabbtn w-100" id="pills-six-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-six" type="button" role="tab" aria-controls="pills-six"
+                                aria-selected="false">6&nbsp;Months</button>
+                        </li>
+                        <li class="nav-item col" role="presentation">
+                            <button class="service_tabbtn w-100 month_12btn" id="pills-twelve-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-twelve" type="button" role="tab" aria-controls="pills-twelve"
+                                aria-selected="false">12&nbsp;Months</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile_tabldropbar desktop_none">
+                <p class="mob_droplabel">Duration of service:</p>
+                <div class="dropdown  w-100">
+                    <button class="btn  w-100 service_mobtab" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        1 Month<img src="./img/drop_arrow.svg">
+                    </button>
+                    <div class="dropdown-menu w-100 p-0">
+                        <div class="nav nav-tabs mobtab_button_bar" id="nav-tab" role="tablist">
+                            <button class="active service_tabbtn w-100 month_1btn" id="pills-one-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab"
+                                aria-controls="pills-one" aria-selected="true">1&nbsp;Month</button>
+                            <button class="service_tabbtn w-100" id="pills-three-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                                aria-selected="false">3&nbsp;Months</button>
+                            <button class="service_tabbtn w-100" id="pills-six-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-six" type="button" role="tab" aria-controls="pills-six"
+                                aria-selected="false">6&nbsp;Months</button>
+                            <button class="service_tabbtn w-100 month_12btn" id="pills-twelve-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-twelve" type="button" role="tab" aria-controls="pills-twelve"
+                                aria-selected="false">12&nbsp;Months</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service_s6tablemain">
+                <div class="tab_contentbar tab-content">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active service_contentmain" id="pills-one" role="tabpanel"
+                            aria-labelledby="pills-one-tab">
+                            <div class="service_tabcontent table-responsive">
+                                <table class="table table-borderless mb-0 service_table">
+                                    <thead class="service_table_header">
+                                        <tr class="align-middle">
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle"></p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Bronze</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Silver</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Gold</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Platinum</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Diamond</p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="service_table_body">
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid " src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid " src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start service_table_bodysecondlast">
+                                                <p class="service_table_bodytitle">Price</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td>
+                                                <p class="service_bodytext"></p>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade service_contentmain" id="pills-three" role="tabpanel"
+                            aria-labelledby="pills-three-tab">
+                            <div class="service_tabcontent table-responsive">
+                                <table class="table table-borderless mb-0 service_table">
+                                    <thead class="service_table_header">
+                                        <tr class="align-middle">
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle"></p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Bronze</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Silver</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Gold</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Platinum</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Diamond</p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="service_table_body">
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid " src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid " src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start service_table_bodysecondlast">
+                                                <p class="service_table_bodytitle">Price</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td>
+                                                <p class="service_bodytext"></p>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade service_contentmain" id="pills-six" role="tabpanel"
+                            aria-labelledby="pills-six-tab">
+                            <div class="service_tabcontent table-responsive">
+                                <table class="table table-borderless mb-0 service_table">
+                                    <thead class="service_table_header">
+                                        <tr class="align-middle">
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle"></p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Bronze</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Silver</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Gold</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Platinum</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Diamond</p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="service_table_body">
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid " src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid " src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start service_table_bodysecondlast">
+                                                <p class="service_table_bodytitle">Price</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td>
+                                                <p class="service_bodytext"></p>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade service_contentmain" id="pills-twelve" role="tabpanel"
+                            aria-labelledby="pills-twelve-tab">
+                            <div class="service_tabcontent table-responsive">
+                                <table class="table table-borderless mb-0 service_table">
+                                    <thead class="service_table_header">
+                                        <tr class="align-middle">
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle"></p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Bronze</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Silver</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Gold</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Platinum</p>
+                                            </th>
+                                            <th scope="col" class="text-center">
+                                                <p class="service_tabletitle">Diamond</p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="service_table_body">
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid " src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid " src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start">
+                                                <p class="service_table_bodytitle">#001</p>
+                                            </td>
+                                            <td class="text-center table_bgred">
+                                                <img class="img-fluid" src="./img/service_table_cross.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                            <td class="text-center table_bggreen">
+                                                <img class="img-fluid" src="./img/service_table_tick.svg">
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td class="text-start service_table_bodysecondlast">
+                                                <p class="service_table_bodytitle">Price</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                            <td class="text-center service_table_bodysecondlast">
+                                                <p class="service_table_bodyprice">£100.00</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td>
+                                                <p class="service_bodytext"></p>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn service_tablebtn">Add to cart</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 6 End -->
+
+    <!-- Section 7 Start -->
+    <section class="service_s7">
+        <div class="service_c7 container">
+            <div class="service_s7top">
+                <h1 class="os2_title mb-0 text-center">Need Something Special? Contact Us Here</h1>
+                <p class="os2_subtitle mb-0 text-center">
+                    Lorem ipsum dolor sit amet consectetur. Nunc quis sagittis etiam nec cras. Ac eget etiam facilisi
+                    imperdiet nec sem. Arcu in enim eu orci.
+                </p>
+            </div>
+            <img class="mobile_none" src="./img/service_formline.png">
+            <div class="service_s7formbar">
+                <div class="service_s7form">
+                    <div class="service_firstlast">
+                        <input type="text" class="form-control service_textbox" id="" placeholder="Full Name *">
+                        <input type="email" class="form-control service_textbox" id="" placeholder="Email *">
+                    </div>
+                    <div class="service_firstlast">
+                        <input type="number" class="form-control service_textbox" id="" placeholder="phone number *">
+                        <input type="file" name="file" id="file" class="inputfile"
+                            data-multiple-caption="{count} files selected" multiple />
+                        <label class="upload_label w-100" for="file"><span class="w-100">Upload A Brief <img
+                                    src="./img/pdf_uploadicon.svg"></span>
+                        </label>
+                    </div>
+                    <textarea class="form-control service_s7textarea" id="" placeholder="Your Message *"></textarea>
+                </div>
+            </div>
+            <div class="c-checkboxR mb-0">
+                <div class="c-divR">
+                    <label class="d-flex justify-content-center justify-content-lg-start">
+                        <input type="checkbox" id="terms" name="terms">
+                        <label for="terms"></label>
+                    </label>
+                </div>
+                <div class="check_text">
+                    <span class="login_strongF">By ticking this box, you are agreeing to the
+                        <a class="term_link">Terms and Conditions</a> and <a class="term_link">Privacy
+                            Policy.</a></span>
+                </div>
+            </div>
+            <div class="service_s7captchabtn w-100">
+                <img src="./img/reCAPTCHA.png">
+                <button type="button" class="btn service_tablebtn m-0">Submit your request</button>
+            </div>
+        </div>
+    </section>
+    <!-- Section 7 End -->
+
+    <!--Service End-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer_top_left">
+                    <img src="./img/footer_logo.svg" alt="" class="img-fluid">
+                    <img src="./img/Mastercard.png" alt="" class="img-fluid">
+                </div>
+                <div class="footer_top_right">
+                    <div class="footer_top_right_left">
+                        <h1 class="footer_titles">Website Links</h1>
+                        <div class="footer_strokes"></div>
+                        <div class="footer_link_div">
+                            <button class="btn footer_links">
+                                Our Story
+                            </button>
+                            <button class="btn footer_links">
+                                Services
+                            </button>
+                            <button class="btn footer_links">
+                                Contact Us
+                            </button>
+                            <button class="btn footer_links">
+                                FAQs
+                            </button>
+                        </div>
+                    </div>
+                    <div class="footer_top_right_right">
+                        <h1 class="footer_titles">Contact Details</h1>
+                        <div class="footer_strokes"></div>
+                        <div class="footer_link_div">
+                            <p class="footer_address">
+                                Insert Full Address Detail Here City, State, Zip Code
+                            </p>
+                            <button class="btn footer_links">
+                                info@EmeraldEagleMedia.com
+                            </button>
+                            <button class="btn footer_links">
+                                +123 456 789 10
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_bottom_left">
+                    <button class="btn btn_footer_btm_links">Terms and Conditions</button>
+                    <button class="btn btn_footer_btm_links">Privacy Policy</button>
+                </div>
+                <div class="footer_bottom_right">
+                    <p class="footer_copyright">© 2023 Emerald Eagle Media. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/owl.carousel.js"></script>
+    <!-- <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".hamburger_menu").click(function () {
+                $(".header_mobo_main_slide").fadeIn("slow");
+                $(".hamburger_menu").fadeOut("slow");
+                $(".hamburger_menu_close").fadeIn("slow");
+                $(".header_top").addClass("gradient_border");
+            });
+            $(".hamburger_menu_close").click(function () {
+                $(".header_mobo_main_slide").fadeOut("slow");
+                $(".hamburger_menu").fadeIn("slow");
+                $(".hamburger_menu_close").fadeOut("slow");
+                $(".header_top").removeClass("gradient_border");
+            });
+            $(".hamburger_cart").click(function () {
+                $(".header_cart_mobo_main_slide").fadeIn("slow");
+                $(".header_mobo_main_slide").fadeOut("slow");
+                // $(".cart_menu_close").fadeIn("slow");
+            });
+            $(".cart_menu_closem").click(function () {
+                $(".header_cart_mobo_main_slide").fadeOut("slow");
+                // $(".cart_menu_close").fadeOut("slow");
+                $(".hamburger_menu_close").fadeOut("slow");
+                $(".hamburger_menu").fadeIn("slow");
+            });
+        });
+
+
+
+        function currency_drop(drop_id, logo_id, self_class) {
+            var a = document.getElementById(drop_id);
+            var b = document.getElementById(logo_id);
+            var c = document.getElementById(self_class);
+            if (a.classList.contains('d-none')) {
+                a.classList.remove('d-none');
+                b.style.rotate = '180deg';
+                c.classList.add('active_class')
+            } else {
+                a.classList.add('d-none')
+                b.style.rotate = '0deg';
+                c.classList.remove('active_class')
+            }
+        }
+
+        function desk_cart(drop_id, self_class) {
+            var a = document.getElementById(drop_id);
+            var c = document.getElementById(self_class);
+            if (a.classList.contains('d-none')) {
+                a.classList.remove('d-none');
+                c.classList.add('active_class')
+            } else {
+                a.classList.add('d-none')
+                c.classList.remove('active_class')
+            }
+        }
+    </script>
+    <!-- Upload Script -->
+    <script>
+        const inputs = document.querySelectorAll('.inputfile');
+
+        for (let input of inputs) {
+            const label = input.nextElementSibling;
+            const labelVal = label.innerHTML;
+
+            input.addEventListener('change', (e) => {
+                let fileName = '';
+                if (input.files && input.files.length > 1) {
+                    fileName = (input.getAttribute('data-multiple-caption') || '').replace('{count}', input
+                        .files.length);
+                } else {
+                    fileName = e.target.value.split('\\').pop();
+                }
+
+                if (fileName) {
+                    label.querySelector('span').innerHTML = fileName;
+                } else {
+                    label.innerHTML = labelVal;
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>

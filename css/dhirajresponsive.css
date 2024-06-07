@@ -1,0 +1,295 @@
+@media only screen and (max-device-width: 600px) {
+
+    /* CHECKOUT */
+
+    .check_bx {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+        margin-top: -246px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 40px;
+    }
+
+    .lft_bx {
+        display: flex;
+        width: 100%;
+        max-width: 327px;
+        padding: 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        border-radius: 10px;
+        margin: auto;
+        background: var(--Grayscale-White, #FFF);
+    }
+
+    .comm_tit {
+        color: var(--Grayscale-800, #3C3C3C);
+        font-family: "IvyOra Display";
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45.5px;
+        letter-spacing: -0.435px;
+        text-transform: capitalize;
+    }
+
+    .rgt_bx {
+        display: flex;
+        padding: 24px 48px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .cart_main1 {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .disc_nox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .btn_apply {
+        max-width: 100%;
+    }
+
+    .captch_box {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    /* PAYMENT SUCCESFULL */
+    .rgt_bx_ps {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .check_bx_ps {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+        margin-top: -286px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 0px;
+    }
+
+    .disc_nox {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    /* PAyment Unsuccesfull */
+
+    .red_tit {
+        color: var(--Functional-Error-Red, #C81414);
+        text-align: center;
+        font-family: "IvyOra Display";
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45.5px;
+        letter-spacing: -0.435px;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+    }
+
+    .total_text_red {
+        color: var(--Functional-Error-Red, #C81414);
+        font-family: "Jost";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 41.5px;
+        letter-spacing: -0.36px;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+    }
+
+    /* Contact Us */
+
+    .main_title {
+        color: var(--Grayscale-800, #3C3C3C);
+        text-align: center;
+        font-family: "IvyOra Display";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45.5px;
+        letter-spacing: -0.48px;
+        text-transform: capitalize;
+        width: 100%;
+        max-width: 200px;
+    }
+
+
+    .cont_main_bx {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+
+    .gt_touch {
+        display: flex;
+        width: 100%;
+        max-width: 327px;
+        padding: 40px 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+        border-radius: 10px;
+        border-right: 1px solid rgba(251, 235, 223, 0.00);
+        border-bottom: 1px solid rgba(251, 235, 223, 0.00);
+        border-left: 1px solid rgba(251, 235, 223, 0.00);
+        background: var(--Grayscale-White, #FFF);
+        box-shadow: 0px 13px 13px 0px rgba(0, 0, 0, 0.03), 0px 2.6px 2.112px 0px rgba(0, 0, 0, 0.01);
+        height: 100%;
+        margin: auto;
+    }
+
+    .capt_btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .cont_main_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: -247px;
+        position: relative;
+        z-index: 1;
+        padding-bottom: 40px;
+    }
+
+
+    .faq_box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+        border-radius: 10px;
+        border: 1px solid rgba(251, 235, 223, 0.00);
+        background: var(--Grayscale-White, #FFF);
+        box-shadow: 0px 13px 13px 0px rgba(0, 0, 0, 0.03), 0px 2.6px 2.112px 0px rgba(0, 0, 0, 0.01);
+        width: 100%;
+        max-width: 327px;
+    }
+
+
+
+    .upper_box {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .lower_box {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 10px;
+        border: 1px solid rgba(251, 235, 223, 0.00);
+        background: var(--Grayscale-White, #FFF);
+    }
+
+    .dual_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 24px;
+    }
+
+    .one_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        flex: 1 0 0;
+        width: 100%;
+    }
+
+    .emails {
+        color: var(--Grayscale-800, #3C3C3C);
+        font-family: "Jost";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 41.5px;
+        letter-spacing: -0.36px;
+        text-transform: capitalize;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-device-width: 950px) and (max-device-width: 998px) {}
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1199px) {}
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1348px) {}
+
+@media only screen and (min-device-width: 1349px) and (max-device-width: 1439px) {}
+
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1499px) {}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1699px) {}
+
+@media only screen and (min-device-width: 1700px) and (max-device-width: 1799px) {}
+
+@media only screen and (min-device-width: 1800px) and (max-device-width: 1919px) {}
